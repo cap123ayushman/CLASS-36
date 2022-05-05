@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+
+    <!-- Firebase SDK CODE ADD BELOW -->
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      //add here
+      // Initialize Firebase
+
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyC1nWWsbG4UBhe2bVMSrJgGKUaEtqO6Whs",
+      authDomain: "hotwheels-d4378.firebaseapp.com",
+      databaseURL: "https://hotwheels-d4378-default-rtdb.firebaseio.com",
+      projectId: "hotwheels-d4378",
+      storageBucket: "hotwheels-d4378.appspot.com",
+      messagingSenderId: "375245288713",
+      appId: "1:375245288713:web:b82bb00bdf2c140abf4fd8"
+    };
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+   
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+  </body>
+</html>
